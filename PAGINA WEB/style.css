@@ -1,0 +1,38 @@
+@media  only screen and  (min-width: 600px) {
+    .menu {
+    border-bottom: 4px solid grey;
+    height: 20vh;
+}
+    .imagen_encabezado {
+        width: 100vw;
+        bottom: 100%;
+    }
+}
+
+body {
+    margin: 0px;
+}
+.logo {
+    width: 8vw;
+    margin: 1vw;
+    
+}
+
+.letras {
+    text-align: right;
+    font-size: 3vh;
+    position: relative;
+    bottom: 60%;
+    margin-right: 3vw;
+    
+
+}
+.letras a {
+    color: rgb(255, 0, 0);
+    
+}
+.recorte_imagen {
+    overflow: hidden;
+    height: 60vh;
+    
+}
