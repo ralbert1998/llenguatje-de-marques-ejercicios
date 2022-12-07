@@ -1,11 +1,10 @@
 @media  only screen and  (min-width: 600px) {
     .menu {
-    border-bottom: 4px solid grey;
-    height: 20vh;
+
 }
     .imagen_encabezado {
         width: 100vw;
-        bottom: 100%;
+        
     }
 }
 
@@ -14,8 +13,12 @@ body {
 }
 .logo {
     width: 8vw;
-    margin: 1vw;
-    
+    margin: 1vw;    
+}
+.menu{
+    margin: 0px;
+    border-bottom: 4px solid rgb(89, 89, 89);
+    height: 20vh;
 }
 
 .letras {
@@ -24,12 +27,16 @@ body {
     position: relative;
     bottom: 60%;
     margin-right: 3vw;
-    
-
 }
 .letras a {
-    color: rgb(255, 0, 0);
-    
+    color: rgb(255, 255, 255);
+    background-color: rgb(89, 89, 89);
+    padding: 1vh;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    text-align: center;
+    border-radius: 2vh;
+
 }
 .recorte_imagen {
     overflow: hidden;
